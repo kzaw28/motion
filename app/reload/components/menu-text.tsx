@@ -20,7 +20,10 @@ export default function MenuText({ children }: { children: React.ReactNode }) {
     }
 
     return (
-        <motion.div ref={measureRef} className="relative">
+        <motion.div 
+            ref={measureRef} 
+            className="relative"
+            >
             <h1 className={`text-5xl uppercase tracking-tighter leading-8 ${roboto.className}`}>{children}</h1>
             <motion.div 
                 className="h-8 z-[-1] bg-[#0101C7] absolute left-0 top-1"

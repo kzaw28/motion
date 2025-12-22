@@ -5,8 +5,8 @@ export default function ReloadPage() {
         
         <div className="flex flex-col items-end">
             <MenuText>Home</MenuText>
-            {/* <MenuText>Components</MenuText>
-            <MenuText>Contact</MenuText> */}
+            <MenuText>Components</MenuText>
+            <MenuText>Contact</MenuText>
         </div>
     )
 }
